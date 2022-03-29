@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+#nav {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  transition: var(--transition);
+}
+#nav h1 {
+  font-family: "Redressed", cursive;
+}
+#nav span {
+  color: var(--text);
+}
