@@ -8,6 +8,11 @@
 #nav h1 {
   font-family: "Redressed", cursive;
 }
-#nav span {
-  color: var(--text);
+#nav span,
+.title {
+  color: var(--text_primary);
+}
+.subtitle,
+.btn {
+  color: var(--text_primary_two);
 }
