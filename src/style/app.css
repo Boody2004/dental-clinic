@@ -13,6 +13,24 @@
   color: var(--text_primary);
 }
 .subtitle,
-.btn {
+.btn-carousel {
   color: var(--text_primary_two);
+}
+.banner-left {
+  width: 35%;
+}
+.banner-left img {
+  width: 80%;
+}
+.banner-right {
+  width: 65%;
+}
+@media screen and (max-width: 992px) {
+  .banner-left img {
+    width: 100%;
+  }
+  .banner-left,
+  .banner-right {
+    width: 100%;
+  }
 }

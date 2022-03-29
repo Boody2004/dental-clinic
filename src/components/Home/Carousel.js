@@ -14,7 +14,7 @@ const Carousel = () => {
           style={{
             background:
               "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url('https://res.cloudinary.com/dirbnpgsp/image/upload/v1648544300/pexels-karolina-grabowska-6627575_zlpqn0.jpg')",
-            height: "90vh",
+            height: "100vh",
             position: "relative",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -38,7 +38,7 @@ const Carousel = () => {
               with our advanced treatments in Smile Design
             </p>
             <Link to="/">
-              <button className="btn btn-outline-light">
+              <button className="btn btn-carousel btn-outline-light">
                 Learn more
                 <i className="bi bi-caret-right"></i>
               </button>
@@ -51,7 +51,7 @@ const Carousel = () => {
           style={{
             background:
               "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url('https://res.cloudinary.com/dirbnpgsp/image/upload/v1648547888/pexels-daniel-frank-305567_lpkg4r.jpg')",
-            height: "90vh",
+            height: "100vh",
             position: "relative",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -78,7 +78,7 @@ const Carousel = () => {
               communication.
             </p>
             <Link to="/">
-              <button className="btn btn-outline-light">
+              <button className="btn btn-carousel btn-outline-light">
                 Learn more
                 <i className="bi bi-caret-right"></i>
               </button>
@@ -91,7 +91,7 @@ const Carousel = () => {
           style={{
             background:
               "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url('https://res.cloudinary.com/dirbnpgsp/image/upload/v1648548860/pexels-cottonbro-6502308_tjojmw.jpg')",
-            height: "90vh",
+            height: "100vh",
             position: "relative",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -114,7 +114,7 @@ const Carousel = () => {
               We take pride in our talented and caring team and in our work
             </p>
             <Link to="/">
-              <button className="btn btn-outline-light">
+              <button className="btn btn-carousel btn-outline-light">
                 Learn more
                 <i className="bi bi-caret-right"></i>
               </button>

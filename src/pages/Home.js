@@ -1,15 +1,16 @@
+import AboutDr from "../components/Home/AboutDr";
 import Carousel from "../components/Home/Carousel";
 
 const Home = () => {
   return (
-    <div
+    <section
       style={{
         height: "200vh",
       }}
     >
       <Carousel />
-      <h1>Home Page</h1>
-    </div>
+      <AboutDr />
+    </section>
   );
 };
 

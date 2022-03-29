@@ -5,7 +5,7 @@ const Nav = () => {
   window.onscroll = function () {
     const scrolled = window.scrollY;
 
-    if (scrolled >= 705) {
+    if (scrolled >= 790) {
       document.querySelector("nav").style.background = "var(--background)";
     } else {
       document.querySelector("nav").style.background = "none";
