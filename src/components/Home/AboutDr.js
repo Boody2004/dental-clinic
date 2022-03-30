@@ -40,7 +40,7 @@ const AboutDr = () => {
 
           <Link to="/aboutUs">
             <button className="btn btn-outline-light">
-              Learn more
+              Read more
               <i className="bi bi-caret-right"></i>
             </button>
           </Link>
