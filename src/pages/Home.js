@@ -1,15 +1,13 @@
 import AboutDr from "../components/Home/AboutDr";
 import Carousel from "../components/Home/Carousel";
+import OurCompetencies from "../components/Home/OurCompetencies";
 
 const Home = () => {
   return (
-    <section
-      style={{
-        height: "200vh",
-      }}
-    >
+    <section>
       <Carousel />
       <AboutDr />
+      <OurCompetencies />
     </section>
   );
 };

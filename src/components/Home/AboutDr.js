@@ -6,7 +6,7 @@ const AboutDr = () => {
       id="AboutDr"
       className="d-flex flex-wrap align-items-center"
       style={{
-        background: "var(--brand_primary_two)",
+        background: "var(--brand_primary)",
       }}
     >
       <div className="banner-left">
