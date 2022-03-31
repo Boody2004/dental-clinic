@@ -45,7 +45,6 @@ const Carousel = () => {
             </Link>
           </div>
         </div>
-
         <div
           className="carousel-item "
           style={{
@@ -85,7 +84,6 @@ const Carousel = () => {
             </Link>
           </div>
         </div>
-
         <div
           className="carousel-item "
           style={{
