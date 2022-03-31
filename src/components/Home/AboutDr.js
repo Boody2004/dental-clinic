@@ -11,7 +11,7 @@ const AboutDr = () => {
     >
       <div className="banner-left">
         <img
-          src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1648555686/pexels-karolina-grabowska-6627284_l2wifb.jpg"
+          src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1648753307/pexels-antoni-shkraba-5215017_sioooz.jpg"
           alt="DR.img"
         />
       </div>
