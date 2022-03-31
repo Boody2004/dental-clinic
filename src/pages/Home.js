@@ -1,4 +1,5 @@
 import AboutDr from "../components/Home/AboutDr";
+import Advanced from "../components/Home/Advanced";
 import Carousel from "../components/Home/Carousel";
 import ClinicData from "../components/Home/ClinicData";
 import OurCompetencies from "../components/Home/OurCompetencies";
@@ -14,6 +15,7 @@ const Home = () => {
       <ScheduleAnAppointment />
       <ClinicData />
       <Services />
+      <Advanced />
     </section>
   );
 };

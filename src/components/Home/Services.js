@@ -6,7 +6,7 @@ const Services = () => {
       <h2 className="title fw-bold fs-1 m-3">Dental Services We Offer</h2>
       <div
         id="carouselExampleDark"
-        className="carousel carousel-dark slide pt-4"
+        className="carousel carousel-dark slide pt-5"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">

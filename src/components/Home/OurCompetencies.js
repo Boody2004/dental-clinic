@@ -5,7 +5,7 @@ const OurCompetencies = () => {
       style={{ marginTop: "6rem", marginBottom: "6rem" }}
     >
       <h2 className="title fw-bold fs-1 m-3">Our Competencies</h2>
-      <div className="row my-4">
+      <div className="row my-5">
         <div className="col-lg-3 col-md-6 col-sm-12 py-3">
           <div
             className="card"

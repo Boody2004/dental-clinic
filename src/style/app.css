@@ -45,3 +45,6 @@
 .ScheduleAnAppointment {
   background: linear-gradient(to right, #0f4c81, #53cde2);
 }
+.item:hover {
+  background: linear-gradient(to right, #11538d, #11538d);
+}
