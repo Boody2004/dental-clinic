@@ -40,6 +40,8 @@ const Home = () => {
               you with comfortable amenities."
         link="/"
       />
+      <ScheduleAnAppointment />
+      <ClinicData />
     </section>
   );
 };
