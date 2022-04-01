@@ -10,7 +10,7 @@ const OurCompetencies = () => {
           <div
             className="card"
             style={{
-              width: "18rem",
+              maxWidth: "18rem",
               height: "24rem",
               margin: "auto",
               border: "none",
@@ -37,7 +37,7 @@ const OurCompetencies = () => {
           <div
             className="card"
             style={{
-              width: "18rem",
+              maxWidth: "18rem",
               height: "24rem",
               margin: "auto",
               border: "none",
@@ -64,7 +64,7 @@ const OurCompetencies = () => {
           <div
             className="card"
             style={{
-              width: "18rem",
+              maxWidth: "18rem",
               height: "24rem",
               margin: "auto",
               border: "none",
@@ -92,7 +92,7 @@ const OurCompetencies = () => {
           <div
             className="card"
             style={{
-              width: "18rem",
+              maxWidth: "18rem",
               height: "24rem",
               margin: "auto",
               border: "none",

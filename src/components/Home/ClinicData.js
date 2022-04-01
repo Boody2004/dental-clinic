@@ -11,8 +11,8 @@ const ClinicData = () => {
               }}
             ></i>
             <div className="text">
-              <h6>18 Mokhtar Saeed St. El Golf</h6>
-              <p className="mb-0">Nasr City, Cairo, EG</p>
+              <h6>address</h6>
+              <p className="mb-0">City, Governorate, EG</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 py-3 d-flex align-items-center">

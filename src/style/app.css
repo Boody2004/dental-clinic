@@ -16,21 +16,21 @@
 .btn-carousel {
   color: var(--text_primary_two);
 }
-.banner-left {
+.volunteering-banner .banner-left {
   width: 35%;
 }
-.banner-left img {
-  width: 80%;
+.volunteering-banner .banner-left img,
+.about-clinic .banner-right img {
+  width: 100%;
 }
-.banner-right {
+.volunteering-banner .banner-right {
   width: 65%;
 }
 @media screen and (max-width: 992px) {
-  .banner-left img {
-    width: 100%;
-  }
-  .banner-left,
-  .banner-right {
+  .volunteering-banner .banner-left,
+  .volunteering-banner .banner-right,
+  .about-clinic .banner-left,
+  .about-clinic .banner-right {
     width: 100%;
   }
 }
@@ -47,4 +47,10 @@
 }
 .item:hover {
   background: linear-gradient(to right, #11538d, #11538d);
+}
+.about-clinic .banner-right {
+  width: 35%;
+}
+.about-clinic .banner-left {
+  width: 65%;
 }
