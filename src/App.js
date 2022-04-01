@@ -7,6 +7,7 @@ import OurServices from "./pages/OurServices";
 import Testimonials from "./pages/Testimonials";
 import ContactUs from "./pages/ContactUs";
 import NotFound from "./pages/NotFound";
+import Footer from "./components/App/Footer";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <NotFound />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }

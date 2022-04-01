@@ -19,8 +19,7 @@
 .volunteering-banner .banner-left {
   width: 35%;
 }
-.volunteering-banner .banner-left img,
-.about-clinic .banner-right img {
+.volunteering-banner .banner-left img {
   width: 100%;
 }
 .volunteering-banner .banner-right {
@@ -28,9 +27,7 @@
 }
 @media screen and (max-width: 992px) {
   .volunteering-banner .banner-left,
-  .volunteering-banner .banner-right,
-  .about-clinic .banner-left,
-  .about-clinic .banner-right {
+  .volunteering-banner .banner-right {
     width: 100%;
   }
 }
@@ -51,6 +48,15 @@
 .about-clinic .banner-right {
   width: 35%;
 }
+.about-clinic .banner-right img {
+  width: 100%;
+}
 .about-clinic .banner-left {
   width: 65%;
+}
+@media screen and (max-width: 992px) {
+  .about-clinic .banner-left,
+  .about-clinic .banner-right {
+    width: 100%;
+  }
 }

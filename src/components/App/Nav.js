@@ -1,4 +1,3 @@
-import companyLogo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
@@ -24,7 +23,7 @@ const Nav = () => {
         <h1>
           <Link className="navbar-brand fs-2" to="/">
             <img
-              src={companyLogo}
+              src="https://res.cloudinary.com/dirbnpgsp/image/upload/v1648752167/logo_uuwjoy.png"
               alt="logo img"
               style={{
                 width: "15%",
