@@ -1,7 +1,7 @@
+import { Link } from "react-router-dom";
+import Intro from "../components/General/Intro";
 import ScheduleAnAppointment from "../components/General/ScheduleAnAppointment";
 import ClinicData from "../components/General/ClinicData";
-import Intro from "../components/General/Intro";
-import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   return (

@@ -25,3 +25,7 @@ npm start
 **Contact Us page**
 
 ![Design preview for the Profile card component coding challenge](https://res.cloudinary.com/dirbnpgsp/image/upload/v1648897452/screencapture-localhost-3000-contactUs-2022-04-02-13_03_37_zl0vjs.png)
+
+**Testimonials page**
+
+![Design preview for the Profile card component coding challenge](https://res.cloudinary.com/dirbnpgsp/image/upload/v1648902767/screencapture-localhost-3000-testimonials-2022-04-02-14_32_21_udw0f4.png)
