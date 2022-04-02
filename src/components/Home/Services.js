@@ -50,7 +50,7 @@ const Services = () => {
             data-bs-interval="4000"
             style={{
               background:
-                "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url('https://res.cloudinary.com/dirbnpgsp/image/upload/v1648761506/pexels-andrea-piacquadio-789822_wxlnhu.jpg')",
+                "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url('https://res.cloudinary.com/dirbnpgsp/image/upload/v1648863238/pexels-max-andrey-2669601_ulhn5t.jpg')",
               height: "70vh",
               width: "100%",
               position: "relative",
@@ -67,18 +67,15 @@ const Services = () => {
                 left: "15%",
               }}
             >
-              <h2 className="title fw-bold fs-1">Smile Design</h2>
-              <p
-                className="subtitle fw-lighter fs-4"
-                style={{ maxWidth: "500px" }}
-              >
+              <h2 className="fw-bold fs-1">Smile Design</h2>
+              <p className="fw-lighter fs-4" style={{ maxWidth: "500px" }}>
                 The new desired smile is created through several references to
                 patient's old photographs and by engaging with the patient to
                 understand their requirements. Thus can see what would look like
                 before even starting the treatment. Our clinic is trained in
               </p>
               <Link to="/">
-                <button className="btn btn-carousel btn-outline-light">
+                <button className="btn btn-outline-light">
                   Continue Reading <i className="bi bi-caret-right"></i>
                 </button>
               </Link>
@@ -168,7 +165,7 @@ const Services = () => {
             }}
           >
             <div
-              className="carousel-caption text-start text-light"
+              className="carousel-caption text-start"
               style={{
                 position: "absolute",
                 top: "25%",

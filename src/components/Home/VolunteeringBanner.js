@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const VolunteeringBanner = (props) => {
   return (
-    <div style={{ marginTop: "6rem" }}>
+    <div style={{ paddingTop: "6rem" }}>
       <h2 className="title text-center fw-bold fs-1 m-3">{props.title}</h2>
       <div
         className="volunteering-banner d-flex flex-wrap align-items-center mt-5"
