@@ -1,12 +1,12 @@
 const OurServices = () => {
   return (
-    <div
+    <section
       style={{
         height: "200vh",
       }}
     >
       <h1>Our Services Page</h1>
-    </div>
+    </section>
   );
 };
 

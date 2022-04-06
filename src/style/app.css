@@ -12,6 +12,11 @@
 .title {
   color: var(--text_primary);
 }
+@media screen and (max-width: 992px) {
+  #nav .nav-items  {
+    background:var(--background);
+  }
+}
 .subtitle,
 .btn-carousel {
   color: var(--text_primary_two);

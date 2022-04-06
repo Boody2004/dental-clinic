@@ -1,5 +1,9 @@
 const NotFound = () => {
-  return <h1>404</h1>;
+  return (
+    <section>
+      <h1>404</h1>
+    </section>
+  );
 };
 
 export default NotFound;

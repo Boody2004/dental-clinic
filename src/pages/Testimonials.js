@@ -5,7 +5,7 @@ import ClinicData from "../components/General/ClinicData";
 
 const Testimonials = () => {
   return (
-    <div>
+    <section>
       <Intro
         imgBg="https://res.cloudinary.com/dirbnpgsp/image/upload/v1648898146/istockphoto-517899146-612x612_mhvffg.jpg"
         title="Testimonials"
@@ -421,7 +421,7 @@ const Testimonials = () => {
       </div>
       <ScheduleAnAppointment />
       <ClinicData />
-    </div>
+    </section>
   );
 };
 

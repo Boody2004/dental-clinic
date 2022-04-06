@@ -19,7 +19,7 @@ const Nav = () => {
         padding: "3vh 0",
       }}
     >
-      <div className="container-fluid container">
+      <div className="container container-fluid">
         <h1>
           <Link className="navbar-brand fs-2" to="/">
             <img
@@ -46,7 +46,7 @@ const Nav = () => {
         </button>
 
         <div
-          className="collapse navbar-collapse justify-content-end"
+          className="collapse navbar-collapse justify-content-end nav-items"
           id="navbarNavDropdown"
         >
           <ul className="navbar-nav">

@@ -5,7 +5,7 @@ import ClinicData from "../components/General/ClinicData";
 
 const ContactUs = () => {
   return (
-    <div>
+    <section>
       <Intro
         imgBg="https://res.cloudinary.com/dirbnpgsp/image/upload/v1648761506/pexels-andrea-piacquadio-789822_wxlnhu.jpg"
         title="Contact Us"
@@ -121,7 +121,7 @@ const ContactUs = () => {
       </div>
       <ScheduleAnAppointment />
       <ClinicData />
-    </div>
+    </section>
   );
 };
 

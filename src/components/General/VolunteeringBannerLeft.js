@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const VolunteeringBanner = (props) => {
+const VolunteeringBannerLeft = (props) => {
   return (
     <div style={{ paddingTop: "6rem" }}>
       <h2 className="title text-center fw-bold fs-1 m-3">{props.title}</h2>
@@ -21,14 +21,17 @@ const VolunteeringBanner = (props) => {
               maxWidth: "600px",
             }}
           >
-            <p>{props.paragrapghOne}</p>
-            <p>{props.paragrapghTwo}</p>
+            <h3>{props.subtitle}</h3>
+            <p>{props.paragraphOne}</p>
+            <p>{props.paragraphTwo}</p>
+            <div style={{display: `${props.btn}`}}>
             <Link to={props.link}>
               <button className="btn btn-outline-light">
-                Read more
+                {props.btnTitle}
                 <i className="bi bi-caret-right"></i>
               </button>
             </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -36,4 +39,4 @@ const VolunteeringBanner = (props) => {
   );
 };
 
-export default VolunteeringBanner;
+export default VolunteeringBannerLeft;
