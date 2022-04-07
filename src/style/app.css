@@ -19,7 +19,7 @@
 }
 .subtitle,
 .btn-carousel {
-  color: var(--text_primary_two);
+  color: var(--text_secondary);
 }
 .volunteering-banner .banner-left {
   width: 35%;

@@ -24,13 +24,16 @@ const VolunteeringBannerLeft = (props) => {
             <h3>{props.subtitle}</h3>
             <p>{props.paragraphOne}</p>
             <p>{props.paragraphTwo}</p>
-            <div style={{display: `${props.btn}`}}>
-            <Link to={props.link}>
-              <button className="btn btn-outline-light">
-                {props.btnTitle}
-                <i className="bi bi-caret-right"></i>
-              </button>
-            </Link>
+            <a className="text-light" href={props.textLink} target="_blank">
+              {props.titleTextLink}
+            </a>
+            <div style={{ display: `${props.btn}` }}>
+              <Link to={props.link}>
+                <button className="btn btn-outline-light">
+                  {props.btnTitle}
+                  <i className="bi bi-caret-right"></i>
+                </button>
+              </Link>
             </div>
           </div>
         </div>

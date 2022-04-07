@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <>
+    <div>
       <div className="container my-5">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 py-3">
@@ -17,6 +17,15 @@ const Footer = () => {
               DR. Name
             </h4>
             <div className="ms-4">
+              <p className="subtitle">
+                <i
+                  className="fa fa-map-marker-alt me-2 fs-5"
+                  style={{
+                    color: "var(--brand_primary)",
+                  }}
+                ></i>
+                address City, Governorate, EG
+              </p>
               <p className="subtitle">
                 <i
                   className="fas fa-phone-alt me-2 fs-5"
@@ -35,38 +44,38 @@ const Footer = () => {
                 ></i>
                 test@gmail.com
               </p>
-              <Link to="/" target="_blank">
+              <a href="#" target="_blank">
                 <i
                   className="bi bi-facebook me-3 fs-4"
                   style={{
                     color: "var(--brand_primary)",
                   }}
                 ></i>
-              </Link>
-              <Link to="/" target="_blank">
+              </a>
+              <a href="#" target="_blank">
                 <i
                   className="bi bi-instagram me-3 fs-4"
                   style={{
                     color: "var(--brand_primary)",
                   }}
                 ></i>
-              </Link>
-              <Link to="/" target="_blank">
+              </a>
+              <a href="#" target="_blank">
                 <i
                   className="bi bi-twitter me-3 fs-4"
                   style={{
                     color: "var(--brand_primary)",
                   }}
                 ></i>
-              </Link>
-              <Link to="/" target="_blank">
+              </a>
+              <a href="#" target="_blank">
                 <i
                   className="bi bi-youtube me-3 fs-4"
                   style={{
                     color: "var(--brand_primary)",
                   }}
                 ></i>
-              </Link>
+              </a>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 py-3">
@@ -88,7 +97,6 @@ const Footer = () => {
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 py-3">
             <div className="ms-4">
-              {" "}
               <h4 className="title mb-3">Services</h4>
               <Link to="/">
                 <p className="subtitle">All-On-4 Dental Implants</p>
@@ -117,11 +125,11 @@ const Footer = () => {
               <p className="subtitle">Thursday 10:00 - 10:00</p>
               <p className="subtitle">Friday Closed</p>
               <p className="subtitle">Saturday Closed</p>
-              <Link to="/" className="my-3">
+              <a href="tel:+01231234123" className="my-3">
                 <button className="btn btn-outline-dark fs-6">
                   Request Now! <i className="fa fa-calendar-day px-2"></i>
                 </button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -133,15 +141,15 @@ const Footer = () => {
         <p className="title">
           Copyright © 2022 <span>Dental Clinic</span>. All rights reserved. Site
           designed by:
-          <Link
-            to="https://abd-elrahman-be-portfolio.herokuapp.com/"
+          <a
+            href="https://abd-elrahman-be-portfolio.herokuapp.com/"
             target="_blank"
           >
             BE
-          </Link>
+          </a>
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

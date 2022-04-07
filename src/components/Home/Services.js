@@ -38,7 +38,7 @@ const Services = () => {
                 process, we use 4 dental implants to fix a full bridge into the
                 mouth. Depending on your case, we
               </p>
-              <Link to="/">
+              <Link to="/ourServices">
                 <button className="btn btn-outline-light">
                   Continue Reading <i className="bi bi-caret-right"></i>
                 </button>
@@ -74,7 +74,7 @@ const Services = () => {
                 understand their requirements. Thus can see what would look like
                 before even starting the treatment. Our clinic is trained in
               </p>
-              <Link to="/">
+              <Link to="/ourServices">
                 <button className="btn btn-outline-light">
                   Continue Reading <i className="bi bi-caret-right"></i>
                 </button>
@@ -109,7 +109,7 @@ const Services = () => {
                 appearance. Based on variables like your age, possible jaw
                 imbalances, differences in the size of your teeth and more,
               </p>
-              <Link to="/">
+              <Link to="/ourServices">
                 <button className="btn btn-outline-light">
                   Continue Reading <i className="bi bi-caret-right"></i>
                 </button>
@@ -144,7 +144,7 @@ const Services = () => {
                 having a healthy smile for a lifetime! From the time your son or
                 daughter is between one and two
               </p>
-              <Link to="/">
+              <Link to="/ourServices">
                 <button className="btn btn-outline-light">
                   Continue Reading <i className="bi bi-caret-right"></i>
                 </button>
@@ -182,7 +182,7 @@ const Services = () => {
                 provide additional care emphasis in Elder dentistry, she is
                 aware of the emotional strain associated with caring
               </p>
-              <Link to="/">
+              <Link to="/ourServices">
                 <button className="btn btn-carousel btn-outline-light">
                   Continue Reading <i className="bi bi-caret-right"></i>
                 </button>
