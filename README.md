@@ -18,20 +18,22 @@ npm install
 npm start
 ```
 
-
 **Home page**
 
 ![Design preview for the Profile card component coding challenge](https://res.cloudinary.com/dirbnpgsp/image/upload/v1648897573/home_page_kn3mpy.png)
 
 **About Us page**
 
-![Design preview for the Profile card component coding challenge](https://res.cloudinary.com/dirbnpgsp/image/upload/v1649270472/screencapture-localhost-3000-aboutUs-2022-04-06-20_37_43_zp4fhv.png)
+![Design preview for the Profile card component coding challenge](https://res.cloudinary.com/dirbnpgsp/image/upload/v1649374688/screencapture-localhost-3000-aboutUs-2022-04-08-01_36_31_qyednr.png)
 
+**Our Servecs page**
 
-**Contact Us page**
-
-![Design preview for the Profile card component coding challenge](https://res.cloudinary.com/dirbnpgsp/image/upload/v1648897452/screencapture-localhost-3000-contactUs-2022-04-02-13_03_37_zl0vjs.png)
+![Design preview for the Profile card component coding challenge](https://res.cloudinary.com/dirbnpgsp/image/upload/v1649374460/screencapture-localhost-3000-ourServices-2022-04-08-01_32_36_tzkfa3.png)
 
 **Testimonials page**
 
 ![Design preview for the Profile card component coding challenge](https://res.cloudinary.com/dirbnpgsp/image/upload/v1648902767/screencapture-localhost-3000-testimonials-2022-04-02-14_32_21_udw0f4.png)
+
+**Contact Us page**
+
+![Design preview for the Profile card component coding challenge](https://res.cloudinary.com/dirbnpgsp/image/upload/v1648897452/screencapture-localhost-3000-contactUs-2022-04-02-13_03_37_zl0vjs.png)
