@@ -45,3 +45,7 @@ npm start
 **Dental Tourism page**
 
 ![Design preview for the Profile card component coding challenge](https://res.cloudinary.com/dirbnpgsp/image/upload/v1649433262/screencapture-localhost-3000-dentalTourism-2022-04-08-17_53_42_nqpgpg.png)
+
+**Not Found page**
+
+![Design preview for the Profile card component coding challenge](https://res.cloudinary.com/dirbnpgsp/image/upload/v1649460210/Not_Found_Page_byk1ab.png)
