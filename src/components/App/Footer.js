@@ -93,6 +93,12 @@ const Footer = () => {
               <Link to="/contactUs">
                 <p className="subtitle">Contact Us</p>
               </Link>
+              <Link to="/patientPrivacy">
+                <p className="subtitle">Patient Privacy</p>
+              </Link>
+              <Link to="/dentalTourism">
+                <p className="subtitle">Dental Tourism</p>
+              </Link>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 py-3">

@@ -32,7 +32,7 @@ const DentalTourism = () => {
         <VolunteeringBannerLeft
           background="var(--background)"
           subtitle="Lodging"
-          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1648770945/pexels-mentatdgt-1024311_fp988a.jpg"
+          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1649420555/pexels-dids-2791028_rbnam4.jpg"
           paragraphOne="good offers and recommendations for patients who visit our clinic on Dental Tourism. Having full mouth restorations, dental implants, smile makeover procedures, or other treatments that require an overnight stay, we facilitate lodging options for you with comfortable amenities."
           btn="none"
           link="/"
@@ -40,7 +40,7 @@ const DentalTourism = () => {
         <VolunteeringBannerRight
           background="var(--background)"
           subtitle="Touring"
-          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1648770945/pexels-mentatdgt-1024311_fp988a.jpg"
+          img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1649420591/pexels-airam-datoon-9408169_ljwb8c.jpg"
           paragraphOne="Have a walk back in time and explore ancient mysteries at one of the most impressive ancient sites in the world, consider that there are so many things to see. Enjoy a breathtaking tour while having your dental needs cared for at."
           btn="none"
           link="/"

@@ -17,11 +17,11 @@
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--brand_primary_two);
+  background: var(--text_secondary);
   border-radius: 25px;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--brand_primary);
+  background: var(--text_primary);
   cursor: pointer;
 }

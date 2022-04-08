@@ -37,3 +37,11 @@ npm start
 **Contact Us page**
 
 ![Design preview for the Profile card component coding challenge](https://res.cloudinary.com/dirbnpgsp/image/upload/v1648897452/screencapture-localhost-3000-contactUs-2022-04-02-13_03_37_zl0vjs.png)
+
+**Patient Privacy page**
+
+![Design preview for the Profile card component coding challenge](https://res.cloudinary.com/dirbnpgsp/image/upload/v1649420875/screencapture-localhost-3000-patientPrivacy-2022-04-08-14_27_05_huyjus.png)
+
+**Dental Tourism page**
+
+![Design preview for the Profile card component coding challenge](https://res.cloudinary.com/dirbnpgsp/image/upload/v1649420682/screencapture-localhost-3000-dentalTourism-2022-04-08-14_23_47_sb0c9s.png)
