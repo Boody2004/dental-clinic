@@ -53,14 +53,14 @@ const Home = () => {
       <VolunteeringBannerLeft
         title="Dental Tourism In Our Town"
         img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1648771299/pexels-sheila-731217_wltiiv.jpg"
-        paragraphOne="Optimum Care Dental Clinic has good offers and recommendations for
+        paragraphOne="good offers and recommendations for
               patients who visit our practice on Dental Tourism. Having full
               mouth restorations, smile makeover procedures, or other treatments
               that require an overnight stay, we facilitate lodging options for
               you with comfortable amenities."
         btn="block"
         btnTitle="Read more"
-        link="/"
+        link="/dentalTourism"
       />
       <ScheduleAnAppointment />
       <ClinicData />

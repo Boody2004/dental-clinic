@@ -9,6 +9,7 @@ import ContactUs from "./pages/ContactUs";
 import PatientPrivacy from "./pages/PatientPrivacy";
 import NotFound from "./pages/NotFound";
 import Footer from "./components/App/Footer";
+import DentalTourism from "./pages/DentalTourism";
 
 function App() {
   return (
@@ -37,6 +38,10 @@ function App() {
 
         <Route path="/patientPrivacy" exact>
           <PatientPrivacy />
+        </Route>
+
+        <Route path="/dentalTourism" exact>
+          <DentalTourism />
         </Route>
 
         <Route path="*">

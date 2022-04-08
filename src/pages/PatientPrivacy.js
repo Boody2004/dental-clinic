@@ -42,7 +42,7 @@ const PatientPrivacy = () => {
           care providers and it is our duty to protect the well being of
           those who are entrusted to our care."
             btn="none"
-            link="/patientPrivacy"
+            link="/"
           />
         </div>
         <h1 className="title fw-light my-4">

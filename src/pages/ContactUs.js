@@ -28,9 +28,9 @@ const ContactUs = () => {
         </nav>
         <h2 className="title">Contact us, talk to us so we can help you</h2>
         <p className="subtitle lead">
-          The team at Optimum Care Dental Clinic will be happy to answer your
-          questions through the contact us form below or through telephone. And
-          of course, you can also request an appointment at any time.
+          The team at will be happy to answer your questions through the contact
+          us form below or through telephone. And of course, you can also
+          request an appointment at any time.
         </p>
         <div className="card my-5 p-5 shadow">
           <form

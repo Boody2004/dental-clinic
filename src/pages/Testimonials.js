@@ -89,15 +89,15 @@ const Testimonials = () => {
                     My last treatment was cleaning my teeth & removing calculus,
                     In the past I wasn't go to dentist regularly unless there is
                     pain or teeth need to be filled or removed. When I came to
-                    Optimum Care Dental Clinic for the first time, Dr. Heba
-                    Ammar drew my attention to the importance of cleaning my
-                    teeth & removing the calculus every 6 months & how much it
-                    is destructive if I didn't do this, also she taught me the
-                    best way to brush my teeth properly. I always feel so
-                    comfortable when I come here, it is really very accurate,
-                    clean, fast treatment, Dr. Heba Ammar is trustworthy and an
-                    honest doctor. The clinic is always clean & good equipped.
-                    The staff is amazing and organized..
+                    for the first time, Dr. Heba Ammar drew my attention to the
+                    importance of cleaning my teeth & removing the calculus
+                    every 6 months & how much it is destructive if I didn't do
+                    this, also she taught me the best way to brush my teeth
+                    properly. I always feel so comfortable when I come here, it
+                    is really very accurate, clean, fast treatment, Dr. Heba
+                    Ammar is trustworthy and an honest doctor. The clinic is
+                    always clean & good equipped. The staff is amazing and
+                    organized..
                     <br />
                     <cite title="Source Title">dd/mm/yyyy</cite>
                   </footer>
@@ -126,13 +126,12 @@ const Testimonials = () => {
                     Genuine care and complete trust
                   </h3>
                   <footer className="blockquote-footer">
-                    I am a detail-oriented person, and I am going to say that
-                    Optimum Care Dental Clinic is the place to find the genuine
-                    care and complete trust you've been looking for, you rest
-                    assured peacefully while all your dental issues are getting
-                    professionally fixed, I hereby testify that all treatments
-                    Ihad done five years ago are still functioning at full
-                    capacity. Thanks Dr. Heba Ammar.
+                    I am a detail-oriented person, and I am going to say that is
+                    the place to find the genuine care and complete trust you've
+                    been looking for, you rest assured peacefully while all your
+                    dental issues are getting professionally fixed, I hereby
+                    testify that all treatments Ihad done five years ago are
+                    still functioning at full capacity. Thanks Dr. Heba Ammar.
                     <br />
                     <cite title="Source Title">dd/mm/yyyy</cite>
                   </footer>
@@ -163,9 +162,9 @@ const Testimonials = () => {
                   <footer className="blockquote-footer">
                     The best dentist I've ever been to; She is honest, friendly
                     and insightful, current on the latest techniques, and
-                    completely in tune to her patients. My dental visit to
-                    Optimum Care dental Clinic is well worth the trip! you
-                    really could not find a better place to be.
+                    completely in tune to her patients. My dental visit to is
+                    well worth the trip! you really could not find a better
+                    place to be.
                     <br />
                     <cite title="Source Title">dd/mm/yyyy</cite>
                   </footer>
@@ -401,15 +400,15 @@ const Testimonials = () => {
                     My last treatment was cleaning my teeth & removing calculus,
                     In the past I wasn't go to dentist regularly unless there is
                     pain or teeth need to be filled or removed. When I came to
-                    Optimum Care Dental Clinic for the first time, Dr. Heba
-                    Ammar drew my attention to the importance of cleaning my
-                    teeth & removing the calculus every 6 months & how much it
-                    is destructive if I didn't do this, also she taught me the
-                    best way to brush my teeth properly. I always feel so
-                    comfortable when I come here, it is really very accurate,
-                    clean, fast treatment, Dr. Heba Ammar is trustworthy and an
-                    honest doctor. The clinic is always clean & good equipped.
-                    The staff is amazing and organized..
+                    for the first time, Dr. Heba Ammar drew my attention to the
+                    importance of cleaning my teeth & removing the calculus
+                    every 6 months & how much it is destructive if I didn't do
+                    this, also she taught me the best way to brush my teeth
+                    properly. I always feel so comfortable when I come here, it
+                    is really very accurate, clean, fast treatment, Dr. Heba
+                    Ammar is trustworthy and an honest doctor. The clinic is
+                    always clean & good equipped. The staff is amazing and
+                    organized..
                     <br />
                     <cite title="Source Title">dd/mm/yyyy</cite>
                   </footer>
