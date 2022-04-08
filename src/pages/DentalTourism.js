@@ -9,7 +9,7 @@ const DentalTourism = () => {
   return (
     <section>
       <Intro
-        imgBg="https://res.cloudinary.com/dirbnpgsp/image/upload/v1649416435/pexels-shvets-production-7176319_doux6x.jpg"
+        imgBg="https://res.cloudinary.com/dirbnpgsp/image/upload/v1649433180/pexels-hisham-elshazli-10131669_av3oxx.jpg"
         title="Dental Tourism"
         linkBtn="#dental-tourism"
       />
