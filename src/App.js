@@ -6,6 +6,7 @@ import AboutUs from "./pages/AboutUs";
 import OurServices from "./pages/OurServices";
 import Testimonials from "./pages/Testimonials";
 import ContactUs from "./pages/ContactUs";
+import PatientPrivacy from "./pages/PatientPrivacy";
 import NotFound from "./pages/NotFound";
 import Footer from "./components/App/Footer";
 
@@ -32,6 +33,10 @@ function App() {
 
         <Route path="/contactUs" exact>
           <ContactUs />
+        </Route>
+
+        <Route path="/patientPrivacy" exact>
+          <PatientPrivacy />
         </Route>
 
         <Route path="*">

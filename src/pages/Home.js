@@ -32,7 +32,7 @@ const Home = () => {
       <Services />
       <Advanced />
       <div className="text-light">
-        <VolunteeringBannerRight 
+        <VolunteeringBannerRight
           background="var(--brand_primary)"
           title="Respecting Patient Privacy"
           img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1648770945/pexels-mentatdgt-1024311_fp988a.jpg"
@@ -47,7 +47,7 @@ const Home = () => {
           those who are entrusted to our care."
           btn="block"
           btnTitle="Read more"
-          link="/aboutUs" 
+          link="/patientPrivacy"
         />
       </div>
       <VolunteeringBannerLeft
