@@ -27,7 +27,7 @@ const Services = () => {
               className="carousel-caption text-start text-light"
               style={{
                 position: "absolute",
-                top: "25%",
+                top: "10%",
                 left: "15%",
               }}
             >
@@ -63,7 +63,7 @@ const Services = () => {
               className="carousel-caption text-start text-light"
               style={{
                 position: "absolute",
-                top: "25%",
+                top: "10%",
                 left: "15%",
               }}
             >
@@ -98,7 +98,7 @@ const Services = () => {
               className="carousel-caption text-start text-light"
               style={{
                 position: "absolute",
-                top: "25%",
+                top: "10%",
                 left: "15%",
               }}
             >
@@ -133,7 +133,7 @@ const Services = () => {
               className="carousel-caption text-start text-light"
               style={{
                 position: "absolute",
-                top: "25%",
+                top: "10%",
                 left: "15%",
               }}
             >
@@ -168,7 +168,7 @@ const Services = () => {
               className="carousel-caption text-start"
               style={{
                 position: "absolute",
-                top: "25%",
+                top: "10%",
                 left: "15%",
               }}
             >
