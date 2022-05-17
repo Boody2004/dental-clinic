@@ -14,6 +14,7 @@ const OurServices = () => {
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);
+
   return (
     <section>
       <Intro

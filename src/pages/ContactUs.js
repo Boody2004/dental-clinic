@@ -1,13 +1,22 @@
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Intro from "../components/General/Intro";
 import ScheduleAnAppointment from "../components/General/ScheduleAnAppointment";
 import ClinicData from "../components/General/ClinicData";
 
 const ContactUs = () => {
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    fetch("https://test-dental-clinic-api.herokuapp.com/contactUs/textPage")
+      .then((res) => res.json())
+      .then((data) => setItems(data));
+  }, []);
+
   return (
     <section>
       <Intro
-        imgBg="https://res.cloudinary.com/dirbnpgsp/image/upload/v1648761506/pexels-andrea-piacquadio-789822_wxlnhu.jpg"
+        imgBg="https://test-dental-clinic-api.herokuapp.com/contactUs/textPage"
         title="Contact Us"
         linkBtn="#contact-us-form"
       />
@@ -26,12 +35,13 @@ const ContactUs = () => {
             </li>
           </ol>
         </nav>
-        <h2 className="title">Contact us, talk to us so we can help you</h2>
-        <p className="subtitle lead">
-          The team at will be happy to answer your questions through the contact
-          us form below or through telephone. And of course, you can also
-          request an appointment at any time.
-        </p>
+        {items.map((item) => (
+          <div key={item.id}>
+            <h2 className="title">{item.title}</h2>
+            <p className="subtitle lead">{item.subtitle}</p>
+          </div>
+        ))}
+
         <div className="card my-5 p-5 shadow">
           <form
             action={`https://formsubmit.co/${process.env.REACT_APP_EMAIL_CONTACTUS}`}
