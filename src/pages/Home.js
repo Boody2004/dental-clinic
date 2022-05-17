@@ -11,21 +11,7 @@ const Home = () => {
   return (
     <section>
       <Carousel />
-      <VolunteeringBannerLeft
-        title="Dr. Name"
-        img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1648753307/pexels-antoni-shkraba-5215017_sioooz.jpg"
-        paragraphOne=" Minim reprehenderit ipsum ullamco ullamco sint mollit sunt in
-              reprehenderit reprehenderit commodo sunt elit pariatur. Consequat
-              proident voluptate consectetur laborum esse ad ea ex dolor
-              consequat. Velit amet est ullamco ut proident amet duis ut
-              incididunt irure non culpa."
-        paragraphTwo=" In aliqua minim officia minim do ad eiusmod sit velit laborum
-              occaecat. Lorem aliquip anim anim est et magna irure veniam. Non
-              dolore do cupidatat Lorem sunt sint aute adipisicing pariatur duis"
-        btn="block"
-        btnTitle="Read more"
-        link="/aboutUs"
-      />
+      <VolunteeringBannerLeft url="home/aboutDr" />
       <OurCompetencies />
       <ScheduleAnAppointment />
       <ClinicData />
@@ -50,18 +36,7 @@ const Home = () => {
           link="/patientPrivacy"
         />
       </div>
-      <VolunteeringBannerLeft
-        title="Dental Tourism In Our Town"
-        img="https://res.cloudinary.com/dirbnpgsp/image/upload/v1648771299/pexels-sheila-731217_wltiiv.jpg"
-        paragraphOne="good offers and recommendations for
-              patients who visit our practice on Dental Tourism. Having full
-              mouth restorations, smile makeover procedures, or other treatments
-              that require an overnight stay, we facilitate lodging options for
-              you with comfortable amenities."
-        btn="block"
-        btnTitle="Read more"
-        link="/dentalTourism"
-      />
+      <VolunteeringBannerLeft url="home/dentalTourismInOurTown" />
       <ScheduleAnAppointment />
       <ClinicData />
     </section>
