@@ -35,8 +35,8 @@ const VolunteeringBannerLeft = (props) => {
                 <h3>{item.subtitle}</h3>
                 <p>{item.subtitleOne}</p>
                 <p>{item.subtitleTwo}</p>
-                <a className="text-light" href={props.textLink} target="_blank">
-                  {props.titleTextLink}
+                <a className="text-light" href={item.link} target="_blank">
+                  {item.titleLink}
                 </a>
                 <div style={{ display: `${item.btn}` }}>
                   <Link to={item.link}>

@@ -30,7 +30,7 @@ const VolunteeringBannerRight = (props) => {
               >
                 <h3>{item.subtitle}</h3>
                 <p>{item.subtitleOne}</p>
-                <p dangerouslySetInnerHTML={{ __html: item.subtitleOne }} />
+                <p dangerouslySetInnerHTML={{ __html: item.subtitleTwo }} />
                 <div style={{ display: `${item.btn}` }}>
                   <Link to={item.link}>
                     <button className="btn btn-outline-light">
