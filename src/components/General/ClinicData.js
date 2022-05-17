@@ -1,56 +1,34 @@
+import React, { useEffect, useState } from "react";
+
 const ClinicData = () => {
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    fetch("https://test-dental-clinic-api.herokuapp.com/general/clinicData")
+      .then((res) => res.json())
+      .then((data) => setItems(data));
+  }, []);
   return (
     <div style={{ background: "var(--background)" }}>
       <div className="container py-5">
         <div className="row">
-          <div className="col-lg-3 col-md-6 col-sm-12 py-3 d-flex align-items-center">
-            <i
-              className="fa fa-map-marker-alt mx-4 fs-4"
-              style={{
-                color: "var(--brand_primary)",
-              }}
-            ></i>
-            <div className="text">
-              <h6>address</h6>
-              <p className="mb-0">City, Governorate, EG</p>
+          {items.map((item) => (
+            <div
+              key={item.id}
+              className=" col-lg-3 col-md-6 col-sm-12 py-3 d-flex align-items-center"
+            >
+              <i
+                className={`${item.icon}  mx-4 fs-4`}
+                style={{
+                  color: "var(--brand_primary)",
+                }}
+              ></i>
+              <div className="text">
+                <h6>{item.title}</h6>
+                <p className="mb-0">{item.subtitle}</p>
+              </div>
             </div>
-          </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 py-3 d-flex align-items-center">
-            <i
-              className="fas fa-phone-alt mx-4 fs-4"
-              style={{
-                color: "var(--brand_primary)",
-              }}
-            ></i>
-            <div className="text">
-              <h6>+20 123 1234 123</h6>
-              <p className="mb-0">Call us now</p>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 py-3 d-flex align-items-center">
-            <i
-              className="fa fa-clock mx-4 fs-4"
-              style={{
-                color: "var(--brand_primary)",
-              }}
-            ></i>
-            <div className="text">
-              <h6>Opening Hours</h6>
-              <p className="mb-0">Sun – Wed: 10:00 – 10:00</p>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 col-sm-12 py-3 d-flex align-items-center">
-            <i
-              className="fa fa-calendar-alt mx-4 fs-4"
-              style={{
-                color: "var(--brand_primary)",
-              }}
-            ></i>
-            <div className="text">
-              <h6>Book An Appointment</h6>
-              <p className="mb-0">Online or by Phone</p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
