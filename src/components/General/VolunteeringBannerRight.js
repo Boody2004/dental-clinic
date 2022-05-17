@@ -1,45 +1,52 @@
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const VolunteeringBannerRight = (props) => {
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    fetch(`https://test-dental-clinic-api.herokuapp.com/${props.url}`)
+      .then((res) => res.json())
+      .then((data) => setItems(data));
+  }, []);
+
   return (
-    <div style={{ marginTop: "6rem" }}>
-      <h2 className="title text-center fw-bold fs-1 m-3">
-        {props.title}
-      </h2>
-      <div
-        className="about-clinic d-flex flex-wrap align-items-center mt-5"
-        style={{
-           background: `${props.background}`,
-        }}
-      >
-        <div className="banner-left">
+    <div>
+      {items.map((item) => (
+        <div key={item.id} style={{ marginTop: "6rem" }}>
+          <h2 className="title text-center fw-bold fs-1 m-3">{item.title}</h2>
           <div
-            className="m-5"
+            className="about-clinic d-flex flex-wrap align-items-center mt-5"
             style={{
-              maxWidth: "600px",
+              background: `${item.background}`,
             }}
           >
-            <h3>{props.subtitle}</h3>
-            <p>{props.paragraphOne}</p>
-            <p dangerouslySetInnerHTML={{ __html: props.paragraphTwo}} />
-            <div style={{display: `${props.btn}`}}>
-              <Link to={props.link}>
-                <button className="btn btn-outline-light">
-                 {props.btnTitle}
-                 <i className="bi bi-caret-right"></i>
-               </button>
-              </Link>
+            <div className="banner-left">
+              <div
+                className="m-5"
+                style={{
+                  maxWidth: "600px",
+                }}
+              >
+                <h3>{item.subtitle}</h3>
+                <p>{item.subtitleOne}</p>
+                <p dangerouslySetInnerHTML={{ __html: item.subtitleOne }} />
+                <div style={{ display: `${item.btn}` }}>
+                  <Link to={item.link}>
+                    <button className="btn btn-outline-light">
+                      {item.btnTitle}
+                      <i className="bi bi-caret-right"></i>
+                    </button>
+                  </Link>
+                </div>
+              </div>
             </div>
-            
+            <div className="banner-right">
+              <img src={item.img} alt="img" />
+            </div>
           </div>
         </div>
-        <div className="banner-right">
-          <img
-            src={props.img}
-            alt="img"
-          />
-        </div>
-      </div>
+      ))}
     </div>
   );
 };
