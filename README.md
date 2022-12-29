@@ -1,5 +1,12 @@
 ## dental-clinic
 
+## go to website [Dental Clinic](https://test-dental-clinic.vercel.app/)
+
+<b>coded by [LAUNCHY]](https://launchysoft.vercel.app/)</b>
+
+**HAVE FUN 👌**
+**Thanks, Abdelrahman Atef**
+
 - **React.js**
 - **Bootstrap 5 js CDN**
 - **Bootstrap 5 css CDN**
@@ -20,7 +27,7 @@ npm start
 
 **Home page**
 
-![Design preview for the Profile card component coding challenge]("./public/home_page_kn3mpy.png")
+![Uploading file..._kjp4adep6](./public/home_page_kn3mpy.png)
 
 **About Us page**
 
