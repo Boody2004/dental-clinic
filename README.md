@@ -20,7 +20,7 @@ npm start
 
 **Home page**
 
-![Design preview for the Profile card component coding challenge](https://res.cloudinary.com/dirbnpgsp/image/upload/v1648897573/home_page_kn3mpy.png)
+![Design preview for the Profile card component coding challenge]("./public/home_page_kn3mpy.png")
 
 **About Us page**
 
