@@ -2,7 +2,7 @@
 
 ## go to website [Dental Clinic](https://test-dental-clinic.vercel.app/)
 
-<b>coded by [LAUNCHY]](https://launchysoft.vercel.app/)</b>
+<b>coded by [Launchy](https://linklaunchy.vercel.app/launchy)</b>
 
 **HAVE FUN 👌**
 **Thanks, Abdelrahman Atef**
