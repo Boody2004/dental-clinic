@@ -5,7 +5,6 @@
 <b>coded by [Launchy](https://linklaunchy.vercel.app/launchy)</b>
 
 **HAVE FUN 👌**
-**Thanks, Abdelrahman Atef**
 
 - **React.js**
 - **Bootstrap 5 js CDN**
