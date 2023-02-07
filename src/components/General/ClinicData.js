@@ -4,7 +4,7 @@ const ClinicData = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch("https://test-dental-clinic-api.herokuapp.com/general/clinicData")
+    fetch("https://dental-clinic-api.vercel.app/general/clinicData")
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);

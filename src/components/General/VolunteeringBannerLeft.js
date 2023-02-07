@@ -5,7 +5,7 @@ const VolunteeringBannerLeft = (props) => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch(`https://test-dental-clinic-api.herokuapp.com/${props.url}`)
+    fetch(`https://dental-clinic-api.vercel.app/${props.url}`)
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);

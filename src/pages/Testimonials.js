@@ -9,7 +9,7 @@ const Testimonials = () => {
 
   useEffect(() => {
     fetch(
-      "https://test-dental-clinic-api.herokuapp.com/testimonials/wordsFromOurPatients"
+      "https://dental-clinic-api.vercel.app/testimonials/wordsFromOurPatients"
     )
       .then((res) => res.json())
       .then((data) => setItems(data));

@@ -8,7 +8,7 @@ const ContactUs = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch("https://test-dental-clinic-api.herokuapp.com/contactUs/textPage")
+    fetch("https://dental-clinic-api.vercel.app/contactUs/textPage")
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);
@@ -16,7 +16,7 @@ const ContactUs = () => {
   return (
     <section>
       <Intro
-        imgBg="https://test-dental-clinic-api.herokuapp.com/contactUs/textPage"
+        imgBg="https://dental-clinic-api.vercel.app/contactUs/textPage"
         title="Contact Us"
         linkBtn="#contact-us-form"
       />

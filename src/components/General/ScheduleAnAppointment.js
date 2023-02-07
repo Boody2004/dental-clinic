@@ -4,9 +4,7 @@ const ScheduleAnAppointment = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch(
-      "https://test-dental-clinic-api.herokuapp.com/general/scheduleAnAppointment"
-    )
+    fetch("https://dental-clinic-api.vercel.app/general/scheduleAnAppointment")
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);

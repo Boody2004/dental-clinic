@@ -9,9 +9,7 @@ const PatientPrivacy = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch(
-      "https://test-dental-clinic-api.herokuapp.com/patientPrivacy/textPage"
-    )
+    fetch("https://dental-clinic-api.vercel.app/patientPrivacy/textPage")
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);

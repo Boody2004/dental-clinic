@@ -4,7 +4,7 @@ const Advanced = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch("https://test-dental-clinic-api.herokuapp.com/home/advanced")
+    fetch("https://dental-clinic-api.vercel.app/home/advanced")
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);
