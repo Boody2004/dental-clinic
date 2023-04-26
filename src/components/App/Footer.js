@@ -140,18 +140,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div
-        className="text-center pt-3"
-        style={{ borderTop: "2px solid var(--brand_primary)" }}
-      >
+      <div className="text-center pt-3">
         <p className="title">
-          Copyright © 2022 <span>Dental Clinic</span>. All rights reserved. Site
-          designed by:
-          <a
-            href="https://abd-elrahman-be-portfolio.herokuapp.com/"
-            target="_blank"
-          >
-            BE
+          Copyright © 2022 <span>Dental Clinic</span>. Designed and Powered by{" "}
+          <a href="https://launchysoft.vercel.app" target="_blank">
+            Launchy
           </a>
         </p>
       </div>
